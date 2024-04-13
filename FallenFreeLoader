@@ -1,0 +1,13 @@
+local FallenId = 10228136016
+
+if game.PlaceId == FallenId then
+
+    queue_on_teleport([[
+
+    repeat task.wait() until getactors()[1] and getactors()[2]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AbyssRoblox/F/main/FallenFree.lua"))();
+
+]])
+else 
+end
