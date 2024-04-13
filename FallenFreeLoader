@@ -6,7 +6,7 @@ if game.PlaceId == FallenId then
 
     repeat task.wait() until getactors()[1] and getactors()[2]
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AbyssRoblox/F/main/FallenFree.lua"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AbyssRoblox/F/main/FallenFreeObf.lua"))();
 
 ]])
 else 
